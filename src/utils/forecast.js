@@ -21,6 +21,8 @@ const forecast = (latitude, longitude, options, callback) => {
                 // chalk.inverse(response.body.currently.temperature) +
                 body.currently.temperature + ' degrees with humidity '+
                 Math.round( body.currently.humidity * 100 ) + '%. ' +
+                'The high today is ' + body.daily.data[0].temperatureHigh + 
+                ' with a low of ' + body.daily.data[0].temperatureLow + '. ' +
                 'There is a ' +
                 // chalk.inverse(precipProc) +
                 precipProc +
