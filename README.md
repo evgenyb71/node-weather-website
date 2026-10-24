@@ -4,7 +4,8 @@ Run `npm ci`, set `MAPBOX_ACCESS_TOKEN` and `DARKSKY_API_KEY` in your
 environment, then run `npm start`. Missing credentials return the existing
 service connection error without making an outbound request.
 
-Run `npm test` for transport, geocoding, forecast and `/weather` regression tests.
+Run `npm test` for transport, geocoding, forecast, `/weather`, page rendering,
+shared partials and HTML escaping regression tests.
 The tests use mocked provider responses and require no API credentials or external
 service access. Route tests start a temporary server on the loopback interface.
 
