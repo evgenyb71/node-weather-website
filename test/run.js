@@ -3,6 +3,7 @@ require('./get-json.test')
 require('./geocode.test')
 require('./forecast.test')
 require('./weather.test')
+require('./templates.test')
 
 const run = async () => {
     let failures = 0
